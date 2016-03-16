@@ -1,0 +1,39 @@
+h1{ color: darkblue;
+    border: double slateblue 2px;
+    width: 205px;
+    border-radius: 12px 12px;
+    padding: 2px;
+    text-shadow: 2px 2px 3px darkmagenta;
+}
+h2{color: rgba(3, 82, 3, 1);
+    border: solid brown 1px;
+    border-radius: 9px 9px;
+    width: 150px;
+    padding: 1.3px;
+    text-shadow: 1.5px 1.5px 2.3px rgba(243, 255, 186, 1);
+}
+h3{color: rgba(72, 68, 255, 1);
+    border: solid brown 1px;
+    border-radius: 7.5px 7.5px;
+    width: 63px;
+    padding: 1px;
+    text-shadow: 1.5px 1.5px 2.3px deeppink ;
+}
+body{
+    background: aliceblue url("../images/img.jpg") bottom;
+}
+table{
+    border: 1px;
+    cellpadding:8px;
+    color: black;
+    background-color: gray;
+}
+form{
+    background: 2px;
+    border: rgba(35, 28, 255, 1);
+}
+s{color: blueviolet;
+}
+.error{
+    color: crimson;
+}
