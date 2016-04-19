@@ -17,6 +17,9 @@
                 class="ru.yandex.ajwar.user.action.ReportsAction" method="listReports" >
             <result name="success">pages/reports.jsp</result>
         </action>
+        <action  name = "*"  class = "ru.yandex.ajwar.user.action.ReportsAction"  method = "listReports" >
+            <result  name = "success" > pages/reports.jsp </result>
+        </action>
 
     </package>
 </struts>

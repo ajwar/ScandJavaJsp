@@ -11,7 +11,6 @@
     <schema name="" catalog="performance_schema"/>
     <schema name="" catalog="scand"/>
     <schema name="" catalog="test"/>
-    <schema name="" catalog="test_db"/>
     <table name="CHARACTER_SETS" schema="" catalog="information_schema" type="SYSTEM VIEW">
       <column name="CHARACTER_SET_NAME" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
       <column name="DEFAULT_COLLATE_NAME" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
@@ -941,16 +940,6 @@
       <column name="activity" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
       <index name="id" unique="true" columns="id"/>
-    </table>
-    <table name="users" schema="" catalog="scand" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="user_name" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
-      <column name="password" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
-      <column name="language" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12"/>
-      <column name="description" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
-      <index name="id" unique="true" columns="id"/>
-      <index name="user_name" unique="true" columns="user_name"/>
     </table>
   </data-source>
 </component>
